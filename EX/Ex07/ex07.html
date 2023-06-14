@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            height: 80px;
+            padding : 20px; 
+            border: 1px solid blue;
+            background-color: blue;
+            text-align: center;
+            color: white;
+        }
+       
+        nav {
+            color: white;   
+            height: 25px;
+            font-size: 30px;
+            background-color: Thistle;
+            padding: 20px;
+        }
+
+        nav#li {
+            float: right;
+        }
+
+        ul li {
+            display: inline-block;
+            position: relative; top:-40px;
+            text-align: left;
+            
+        }
+
+        main {
+            text-align: center;
+            border: 1px solid lightgray;
+            background-color: lightgray;
+        }
+
+        footer {
+            text-align: left;
+            height: 60px;
+            color: white;
+            text-align: left;
+            background: linear-gradient(to right, blue, white)
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <header class = "c12">  
+        <h1> 쇼핑몰 회원관리 VER 1.0 </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>회원등록</li>
+            <li>&nbsp&nbsp&nbsp&nbsp회원목록조회/수정</li>
+            <li>&nbsp&nbsp&nbsp&nbsp회원매출조회</li>
+            <li>&nbsp&nbsp&nbsp&nbsp홈으로</li>
+        </ul>
+    </nav>
+
+    <main border=1 >        
+        <h1> 쇼핑몰 회원 등록</h1>
+        <p> 회원번호(자동발생)</p> 
+        <p> 회원성명</p>
+        <p> 회원주소</p>
+        <p> 가입일자</p>
+        <p> 고객등급[A:VIP, B:일반, C:직원]</p>
+        <p> 도시코드</p>
+        
+        <form>
+            <input type = "submit" name = "submit" value = "등록" />
+            <input type = "submit" name = "submit" value = "조회" />
+        </form>
+    </main>
+
+    <footer class = "c12 ">   
+        HRDKOREA Copyright@2016 All rights reserve. Human Resources Development Service of Korea
+    </footer>
+    
+</body>
+</html>
