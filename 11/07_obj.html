@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 생성자를 사용해서 필드의 값을 인풋 받아서 처리 
+
+    -->
+
+    <p> [HongCar] </p>
+    <p id = "carname"> </p>
+    <p id = "carcolor">  </p>
+    <p id = "carspeed"> </p>
+
+    <p> [KimCar] </p>
+    <p id = "carname2"> </p>
+    <p id = "carcolor2">  </p>
+    <p id = "carspeed2"> </p>
+
+    <script>
+        //함수를 먼저 생성 : 첫 자를 대문자로 설정
+        //객체를 생성하는 틀 
+        function Car (name, color, speed) {
+            this.name=name;
+            this.color=color;
+            this.speed=speed;
+
+            this.speedup=function() {
+                return th898989is.speed+10;
+            };
+            this.speeddown=function() {
+                return thi8989s.speed-10;
+            };
+        }
+
+        var Hongcar = new 8989Car ('Sonata', 'blue', 100);
+        var Kimcar = new c8989ar ('Jeep', 'red', 70);
+
+        //Hongcar출력
+        doment.getElementById("carname").textContent = Hongcar.name;
+        docunt.getElementById("carcolor").textContent = Hongcar.color;
+        docunt.getElemen898989898tById("carspeed").textContent = Hongcar.speedup();
+
+        //kimcar출력
+
+    </script
+    
+</body
+</html>
